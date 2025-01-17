@@ -8,7 +8,7 @@ const Hero = () => {
 
   const textArray = [
     "I'm a Frontend Developer.",
-    "I'm a UI/UX designer",
+    "I'm a UI/UX and Graphic designer.",
     "I specialize in react.js and MERN Stack.",
     "I build modern web applications.",
     "Let's make something together!",
