@@ -1,0 +1,16 @@
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+/* Optional: Customize icon hover effects */
+#follow-me .transform:hover {
+  transform: scale(1.1) rotate(5deg);
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#follow-me a:hover {
+  color: #1da1f2; /* Twitter blue color */
+}
