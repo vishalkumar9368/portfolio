@@ -10,8 +10,38 @@ import Project8 from "../../assets/taskApp.png";
 import Project9 from "../../assets/digitalmkt.png";
 import Project10 from "../../assets/bazaar.png";
 import Project11 from "../../assets/helloDoctor.png";
+import Project12 from "../../assets/furnitureStore.png";
+import Project13 from "../../assets/TaskTracker.png";
+import Project14 from "../../assets/Discovery.png";
 
 export const ProjectCardData = [
+  {
+    name: "TaskTracker App Design",
+    imageUrl: Project13,
+    description: "Task Tracker App prototype.",
+    tech: ["UI/UX Design", "Figma", "Prototype"],
+    demoLink:
+      "https://www.figma.com/design/Rip7nBZ7TPRvDKci8xRaYW/TaskTrackerPro?node-id=0-1&t=oZ9ylNADYH3yyXwl-1",
+    category: "UI/UX",
+  },
+  {
+    name: "Country App Design",
+    imageUrl: Project14,
+    description: "Country finder App prototype.",
+    tech: ["UI/UX Design", "Figma", "Prototype"],
+    demoLink:
+      "https://www.figma.com/design/9KKkN8Bn6ZpLpfeOeVXO5A/CourntriesApp?node-id=0-1&t=B1qodMw2pvM9yGfs-1",
+    category: "UI/UX",
+  },
+  {
+    name: "Furniture Store Design",
+    imageUrl: Project12,
+    description: "E-commerce website prototype.",
+    tech: ["UI/UX Design", "Figma", "Prototype"],
+    demoLink:
+      "https://www.figma.com/design/62iftDVhN09heKXlveT5rz/Ecommerce-website-design?node-id=0-1&t=uwCL4Y8BiYbITpAr-1",
+    category: "UI/UX",
+  },
   {
     name: "Digital Marketing Agency Website",
     imageUrl: Project9,
@@ -19,6 +49,7 @@ export const ProjectCardData = [
     tech: ["HTML", "CSS", "JavaScript"],
     codeLink: "https://github.com/VishalKumar1902/DigitalMarketingWebsite",
     demoLink: "https://vishalkumar1902.github.io/DigitalMarketingWebsite/",
+    category: "Development",
   },
   {
     name: "Notely - Notes App",
@@ -27,6 +58,7 @@ export const ProjectCardData = [
     tech: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
     codeLink: "https://github.com/VishalKumar1902/NotesApp",
     demoLink: "https://notely-notesapp.netlify.app/",
+    category: "Development",
   },
   {
     name: "Doctor's Appointment Booking App",
@@ -34,7 +66,8 @@ export const ProjectCardData = [
     description: "A sleek chat app prototype.",
     tech: ["UI/UX Design", "Figma", "Prototype"],
     demoLink:
-      "https://www.figma.com/proto/Bhx9Ac0Z0RBRURM7nCCMDu/HelloDoctor?node-id=0-1&t=F9QTvxEJm3c3wQSC-1",
+      "https://www.figma.com/design/Bhx9Ac0Z0RBRURM7nCCMDu/HelloDoctor?node-id=0-1&t=1xI6UWxaofTG61M9-1",
+    category: "UI/UX",
   },
   {
     name: "Chat App Design",
@@ -42,7 +75,8 @@ export const ProjectCardData = [
     description: "A sleek chat app prototype.",
     tech: ["UI/UX Design", "Figma", "Prototype"],
     demoLink:
-      "https://www.figma.com/proto/98OeKfbK2vOXXfs8hfVsol/ChatAppDesign?node-id=0-1&t=5M86IFNQZ761k2mK-1",
+      "https://www.figma.com/design/98OeKfbK2vOXXfs8hfVsol/ChatAppDesign?node-id=0-1&t=CdZAuW2kSY66jMyK-1",
+    category: "UI/UX",
   },
   {
     name: "QuizByte - Quiz App",
@@ -51,6 +85,7 @@ export const ProjectCardData = [
     tech: ["React", "CSS"],
     codeLink: "https://github.com/VishalKumar1902/Quiz-app",
     demoLink: "https://quizbyte-learning.netlify.app/",
+    category: "Development",
   },
   {
     name: "Estore-App-Design",
@@ -58,7 +93,8 @@ export const ProjectCardData = [
     description: "E-commerce app prototype.",
     tech: ["UI/UX Design", "Figma", "Prototype"],
     demoLink:
-      "https://www.figma.com/proto/khQAb3AAAmTGLTObX1eVum/E-commerce-App?node-id=0-1&t=zPS56v6dkreStUL4-1",
+      "https://www.figma.com/design/khQAb3AAAmTGLTObX1eVum/E-commerce-App?node-id=0-1&t=gPOcuKCELD8FDE9V-1",
+    category: "UI/UX",
   },
   {
     name: "Travel App Design",
@@ -66,7 +102,8 @@ export const ProjectCardData = [
     description: "A mobile travel app prototype.",
     tech: ["UI/UX Design", "Figma", "Prototype"],
     demoLink:
-      "https://www.figma.com/proto/RUOTwCD4UpOodanlhh1Blv/TravelAppDesign?node-id=0-1&t=BNqiG1HDkY96tV0h-1",
+      "https://www.figma.com/design/RUOTwCD4UpOodanlhh1Blv/TravelAppDesign?node-id=0-1&t=vzLiXIxSs4PSW9MJ-1",
+    category: "UI/UX",
   },
   {
     name: "Blogging App",
@@ -75,8 +112,8 @@ export const ProjectCardData = [
     tech: ["React", "Firebase", "CSS"],
     codeLink: "https://github.com/VishalKumar1902/BlogApplication",
     demoLink: "https://blog-app-by-vishal.netlify.app/",
+    category: "Development",
   },
-
   {
     name: "Hangman Game",
     imageUrl: Project2,
@@ -84,6 +121,7 @@ export const ProjectCardData = [
     tech: ["HTML", "CSS", "JavaScript"],
     codeLink: "https://github.com/VishalKumar1902/Hangman-game",
     demoLink: "https://vishalkumar1902.github.io/Hangman-game/",
+    category: "Development",
   },
   {
     name: "Nike Landing Page",
@@ -92,6 +130,7 @@ export const ProjectCardData = [
     tech: ["React", "Tailwind CSS"],
     codeLink: "https://github.com/VishalKumar1902/NikeLandingPage",
     demoLink: "https://nike4u.netlify.app/",
+    category: "Development",
   },
   {
     name: "Task Management - Website Design",
@@ -99,6 +138,7 @@ export const ProjectCardData = [
     description: "Modern landing page for task management.",
     tech: ["UI/UX Design", "Figma", "Prototype"],
     demoLink:
-      "https://www.figma.com/proto/UQYR3HuLnfiLun9tnHw6Mj/Task-management-Website-design?node-id=0-1&t=XfOOmo5y58UcPNFt-1",
+      "https://www.figma.com/design/UQYR3HuLnfiLun9tnHw6Mj/Task-management-Website-design?node-id=3-20&t=jCsOoYlGxs98zhGk-1",
+    category: "UI/UX",
   },
 ];
