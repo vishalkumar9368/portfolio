@@ -13,6 +13,9 @@ import Project11 from "../../assets/helloDoctor.png";
 import Project12 from "../../assets/furnitureStore.png";
 import Project13 from "../../assets/TaskTracker.png";
 import Project14 from "../../assets/Discovery.png";
+import Project15 from "../../assets/expensetc.png";
+import Project16 from "../../assets/employeems.png";
+import Project17 from "../../assets/worldwise.png";
 
 export const ProjectCardData = [
   {
@@ -42,6 +45,34 @@ export const ProjectCardData = [
       "https://www.figma.com/design/62iftDVhN09heKXlveT5rz/Ecommerce-website-design?node-id=0-1&t=uwCL4Y8BiYbITpAr-1",
     category: "UI/UX",
   },
+  {
+    name: "World Wise",
+    imageUrl: Project17,
+    description: "Get data about different countries.",
+    tech: ["React", "Tailwind CSS"],
+    codeLink: "https://github.com/vishalkumar9368/worldwise-app",
+    demoLink: "https://worldwise4u.netlify.app",
+    category: "Development",
+  },
+  {
+    name: "Employeee Management System",
+    imageUrl: Project16,
+    description: "Easily manage employee data.",
+    tech: ["React", "Node.js", "MongoDB", "JWT"],
+    codeLink: "https://github.com/vishalkumar9368/employee-management-app",
+    demoLink: "https://employee-management-system-vk.netlify.app",
+    category: "Development",
+  },
+  {
+    name: "Expense Tracker",
+    imageUrl: Project15,
+    description: "A responsive web based application.",
+    tech: ["React", "Node.js", "MongoDB", "JWT"],
+    codeLink: "https://github.com/vishalkumar9368/expense-tracker",
+    demoLink: "https://expense-tracker-app-vk.netlify.app",
+    category: "Development",
+  },
+
   {
     name: "Digital Marketing Agency Website",
     imageUrl: Project9,

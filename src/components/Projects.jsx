@@ -3,7 +3,7 @@ import { ProjectCardData } from "./data/Data";
 import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
-  const [selectedCategory, setSelectedCategory] = useState("UI/UX");
+  const [selectedCategory, setSelectedCategory] = useState("Development");
 
   // Filtered projects based on selected category
   const filteredProjects = ProjectCardData.filter(
@@ -37,16 +37,6 @@ const Projects = () => {
         {/* Category selection buttons */}
         <div className="mb-6">
           <button
-            onClick={() => setSelectedCategory("UI/UX")}
-            className={`px-6 py-3 mx-2 text-lg font-bold rounded-full transition-all duration-300 ${
-              selectedCategory === "UI/UX"
-                ? "bg-gradient-to-r from-[#ff512f] to-[#dd2476] text-white"
-                : "bg-gray-600 text-white"
-            }`}
-          >
-            UI/UX Design
-          </button>
-          <button
             onClick={() => setSelectedCategory("Development")}
             className={`px-6 py-3 mx-2 text-lg font-bold rounded-full transition-all duration-300 ${
               selectedCategory === "Development"
@@ -55,6 +45,16 @@ const Projects = () => {
             }`}
           >
             Development
+          </button>
+          <button
+            onClick={() => setSelectedCategory("UI/UX")}
+            className={`px-6 py-3 mx-2 text-lg font-bold rounded-full transition-all duration-300 ${
+              selectedCategory === "UI/UX"
+                ? "bg-gradient-to-r from-[#ff512f] to-[#dd2476] text-white"
+                : "bg-gray-600 text-white"
+            }`}
+          >
+            UI/UX Design
           </button>
         </div>
 
